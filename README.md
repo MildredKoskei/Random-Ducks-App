@@ -8,7 +8,7 @@ It will use an API to gets its data and the frontend will be built using HTML an
 
 This is a simple example of how the app should work.
 
-![demo](https://random-d.uk/api/128.jpg)
+![demo](https://random-d.uk/api/164.jpg)
 
 ## Setup
 
