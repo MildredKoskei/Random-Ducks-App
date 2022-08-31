@@ -1,4 +1,5 @@
 # Random-Ducks-App
+
 ## Introduction
 
 This app displays random images of ducks when the user refreshes the  page.
@@ -31,9 +32,10 @@ The endpoint needed  is:
 
 As a user, I can:
 
--see a duck image on the `#card-image` and it should be new picture of a duck when the page is refreshed
+- see a duck image on the `#card-image` and it should be new picture of a duck when the page is refreshed
 - like the picture by clicking on the like button `#like-button` and the number of times liked should also be displayed by the like count `#like-count`
 - Add a comment on the comment section and the comment should be appended to the comments list
 - A user  can also delete their comment before they submit their comment by clicking the delete button
+
 
 
