@@ -22,7 +22,7 @@ let likes;
 
 
 
-const likesbutton = document.querySelector('#like-button').addEventListener('click', ()=>{
+const likesbutton = document.querySelector('#like_button').addEventListener('click', ()=>{
     likes += 1
     addLikes()
 })
