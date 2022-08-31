@@ -15,17 +15,17 @@ document.querySelector("body").appendChild(h5);
     cardImage.src = data.url
   } 
 })
- 
+
 
 let likeCount = document.querySelector("#like-count")
 let likes;
 
-
-
 let likesbutton = document.querySelector('#like-button').addEventListener('click', ()=>{
-    likes += 1
-    addLikes()
-})
+  likes = 0;
+  likes += 1;
+    addLikes();
+});
+
 function addLikes() {
   likeCount.textContent = `${likes} likes`;
 }
