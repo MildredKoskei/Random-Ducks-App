@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", ()=>{
-// const h6 = document.createElement("h6");
-// h6.textContent = "copyrightsreserved@MildredChepkoech";
-// document.querySelector("body").appendChild(h6);
+const h5 = document.createElement("h5");
+h5.textContent = "copyrightsreserved@Ducks.com";
+document.querySelector("body").appendChild(h5);
 
 
     fetch("https://random-d.uk/api/random")//, {
@@ -17,15 +17,20 @@ document.addEventListener("DOMContentLoaded", ()=>{
 })
  
 
-const likeCount = document.querySelector("#like-count")
+let likeCount = document.querySelector("#like-count")
 let likes;
 
 
 
-const likesbutton = document.querySelector('#like_button').addEventListener('click', ()=>{
+let likesbutton = document.querySelector('#like-button').addEventListener('click', ()=>{
     likes += 1
     addLikes()
 })
+function addLikes() {
+  likeCount.textContent = `${likes} likes`;
+}
+
+
 
 const commentsList = document.querySelector('#comments-list')
 let  form = document.querySelector('form')
@@ -52,6 +57,4 @@ function showComment(comment) {
    function deleteHandle(e){
       e.target.parentNode.remove()
    }
-  function addLikes() {
-    likeCount.textContent = `${likes} likes`;
-  }
+ 
